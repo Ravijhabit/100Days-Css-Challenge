@@ -1,0 +1,49 @@
+h3{
+    text-align:center;
+    text-transform: uppercase;
+    margin: 40px 0;
+    color:rgb(247, 135, 43);
+}
+#planner{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+#planner div{
+    width:50px;
+    height:40px;
+    margin:2px;
+    border:none;
+    background-color: #f5f5f5;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+#planner a{
+    text-decoration: none;
+    color:inherit;
+}
+header{
+    background:radial-gradient(#88eb88,#396339);
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    text-align:center;
+}
+footer{
+    position:absolute;
+    bottom:2%;
+    left:45%;
+}
+footer a{
+    text-decoration: none;
+    color:inherit;
+    cursor:pointer;
+}
+#planner a:hover,a:hover{
+    color:rgb(34, 124, 241);
+    font-size:125%;
+}
