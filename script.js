@@ -4,6 +4,6 @@ for(let i=0;i<100;i++){
     const btn=document.createElement('div');
     btn.appendChild(a);
     a.innerText=i+1;
-    a.href=`src/Day${i+1}`; 
+    a.href=`src/Day${i+1}/index.html`; 
     calendar.appendChild(btn);
 }
