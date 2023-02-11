@@ -12,7 +12,6 @@ main{
     top: 15%;
     left: 47%;
     margin-left: -200px;
-    margin-right:-200px;
     border: 10px double black;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 }
